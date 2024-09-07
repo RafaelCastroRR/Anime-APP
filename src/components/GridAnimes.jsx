@@ -2,7 +2,7 @@ import React from 'react';
 
 export const GridAnimes = ({ animes, onSelectAnime }) => {
     if (!animes || animes.length === 0) {
-        return;
+        return null;
     }
 
     return (
